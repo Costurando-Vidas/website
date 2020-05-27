@@ -1,25 +1,78 @@
 /* GERAL */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* MENU */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .navbar-nav a {
     text-transform: uppercase;
 }
 
-/* SECTIONS */
+/* SECTIONS- GERAL */
 
 section {
-    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 section h2 {
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #B54514;
+    margin-bottom: 50px;
+}
+
+.btn-action {
+    background: #B54514;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
     font-weight: 700;
+    color: #fff;
+}
+
+.btn-action:hover {
+    background-color: #FF7C7C;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-page {
+    background: #CB949E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn-page:hover {
+    background-color: #B54514;
+    text-decoration: none;
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+}
+
+.card-body {
     text-align: center;
 }
+
+/* SECTION - INTRODUÇÃO */
 
 #intro {
     height: 400px;
@@ -29,17 +82,45 @@ section h2 {
 
 #intro .intro-content {
     color: #fff;
-    padding: 60px;
+    padding: 0 80px;
     font-size: 1rem;
 }
 
-.btn-action {
-    background: #FF7C7C;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    font-weight: 700;
-    color: #fff;
+
+/* SECTION - APOIADORES */
+
+#apoio {
+    background-color: rgba(181, 69, 20, 0.1);
 }
 
+/* SECTION - BOLETIM */
+
+.boletim-numeros {
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 30px;
+    padding: 25px;
+    margin: 5px;
+    font-size: 2rem;
+}
+
+#boletim p {
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* SECTION - META */
+
+#meta {
+    background-color: rgba(181, 69, 20, 0.1);
+}
+
+.progress {
+    padding: 0;
+    height: 3rem;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    background-color: #CB949E;
+    border-radius: 20px;
+}
