@@ -147,6 +147,7 @@ section h2 {
     padding: 0;
     height: 3rem;
     border-radius: 20px;
+    background-color: #c9c9c9;
 }
 
 .progress-bar {
