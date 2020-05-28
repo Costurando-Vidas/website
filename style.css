@@ -26,9 +26,15 @@ section {
 section h2 {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2em;
     text-align: center;
     color: #B54514;
     margin-bottom: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn-action {
@@ -37,12 +43,13 @@ section h2 {
     border-radius: 15px;
     text-transform: uppercase;
     padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #fff;
 }
 
 .btn-action:hover {
-    background-color: #FF7C7C;
+    background-color: #CB949E;
     text-decoration: none;
     color: #fff;
 }
@@ -66,6 +73,7 @@ section h2 {
 .card {
     margin-bottom: 30px;
     border: none;
+    align-items: center;
 }
 
 .card-body {
@@ -76,10 +84,23 @@ section h2 {
 
 #intro {
     margin-top: 50px;
-    background-color: darkgrey;
-}    
+    background: linear-gradient(90deg, rgba(203, 148, 158, 0.8) 44.2%, rgba(149, 101, 101, 0) 84.03%);
+    position: relative;
+}
+
+#intro img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
 
 #intro .intro-content {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.09rem;
     color: #fff;
     padding: 0 80px;
     font-size: 1rem;
@@ -123,3 +144,27 @@ section h2 {
     background-color: #CB949E;
     border-radius: 20px;
 }
+
+/* SECTION - LOCAIS */
+
+#locais img {
+    max-width: 140px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(203, 148, 158);
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+}
+
+footer .card-body {
+    background-color: rgba(203, 148, 158);
+}
+
+footer .card {
+    margin-bottom: 0;
+}
+
