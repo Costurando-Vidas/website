@@ -106,6 +106,15 @@ section h2 {
     font-size: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+    #intro {
+        background-color: rgba(203, 148, 158, 0.8);
+    }
+
+    #intro img {
+        object-fit: cover;
+    }
+}
 
 /* SECTION - APOIADORES */
 
@@ -151,6 +160,14 @@ section h2 {
     max-width: 140px;
 }
 
+/* SECTION - CONTATO */
+
+@media screen and (max-width: 600px){
+    #contact {
+        margin-right: 10px;
+    }
+}
+
 /* FOOTER */
 
 footer {
@@ -168,3 +185,8 @@ footer .card {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 600px) {
+    footer {
+        display: none;
+    }
+}
