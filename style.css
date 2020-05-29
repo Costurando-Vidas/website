@@ -78,7 +78,8 @@ section h2 {
 }
 
 .btn-page:hover {
-    background-color: #B54514;
+    /* background-color: #B54514; */
+    background-color: #CB949E;;
     text-decoration: none;
     color: #fff;
 }
@@ -260,6 +261,10 @@ footer .card {
 
 footer .btn-action {
     background-color:#CB949E;
+}
+
+footer .btn-action:hover {
+    background-color:#B54514;
 }
 
 
