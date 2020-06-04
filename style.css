@@ -143,6 +143,12 @@ section h2 {
     background-color: #f3f3f3ff;
 }
 
+@media screen and (min-width: 600px) {
+    #apoio-ttl {
+        padding-right: 50%;
+    }
+}
+
 /* SECTION - BOLETIM */
 
 .boletim-numeros {
